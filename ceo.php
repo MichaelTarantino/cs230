@@ -22,7 +22,7 @@
             <hr>
             <div class="descCol">
                 <h3 style="margin-bottom: 0;"><b>PHONE</b></h3>
-                <p class="whiteText" style="margin-top: 4; margin-bottom: 20; font-size: large;">123-456-7890</p>
+                <p class="whiteText" style="margin-top: 4; margin-bottom: 20; font-size: large;">123 456 7890</p>
             </div>
             <div class="descCol">
                 <h3 style="margin-bottom: 0;"><b>EMAIL</b></h3>
