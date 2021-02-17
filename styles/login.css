@@ -1,0 +1,58 @@
+.bg-cover {
+    background-image: url("../images/main-bg-2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.signin-form {
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 40px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+.white-text{
+    color: #ffffff;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    transition: 0.25s all;
+}
+
+.submit-btn:hover {
+    background-color: rgb(43, 43, 43);
+    color: rgb(149, 214, 0);
+}
+
+.m-hyperlink{
+    color: rgb(149, 214, 0);
+    text-decoration: none;
+    transition: 0.25s all;
+}
+
+.m-hyperlink:hover{
+    color: rgb(149, 214, 0);
+    text-decoration: underline;
+}

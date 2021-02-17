@@ -16,26 +16,33 @@ require "includes/header.php"
                         <div class="form-group">
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control" name="fname" placeholder="First Name" required autofocus>
+                                    <input type="text" class="form-control" name="fname" placeholder="First Name"
+                                        required autofocus>
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" name="lname" placeholder="Last Name" required autofocus>
+                                    <input type="text" class="form-control" name="lname" placeholder="Last Name"
+                                        required autofocus>
                                 </div>
                             </div>
                         </div>
                         <input type="text" class="form-control" name="uname" placeholder="Username" required autofocus>
                         <label for="inputEmail" class="sr-only">Email Address</label>
-                        <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email Address" required autofocus>
+                        <input type="email" id="inputEmail" class="form-control" name="email"
+                            placeholder="Email Address" required autofocus>
                         <label for="inputPassword" class="sr-only">Password</label>
-                        <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password" required>
+                        <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password"
+                            required>
                         <label for="inputPassword" class="sr-only">Confirm Password</label>
-                        <input type="password" id="inputPassword" class="form-control" name="con-pwd" placeholder="Confirm Password" required>
-                        <button class="btb btn-lg submit-btn btn-block" name="signup-submit" type="submit">Sign Up</button>
-                        <p class="hint-text white-text">Already have an account? <a class="m-hyperlink" href="signin.php">Sign In</a></p>
+                        <input type="password" id="inputPassword" class="form-control" name="con-pwd"
+                            placeholder="Confirm Password" required>
+                        <button class="btb btn-lg submit-btn btn-block" name="signup-submit" type="submit">Sign
+                            Up</button>
+                        <p class="hint-text white-text">Already have an account? <a class="m-hyperlink"
+                                href="login.php">Sign In</a></p>
                         <p class="mt-4 mb-3 text-muted">&copy: 2018-2023</p>
                     </form>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 </main>
