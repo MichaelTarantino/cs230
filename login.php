@@ -32,7 +32,7 @@ require "includes/header.php"
                         <label for="inputPassword" class="sr-only">Password</label>
                         <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password"
                             required>
-                        <button class="btb btn-lg submit-btn btn-block" name="login-submit" type="submit">Sign
+                        <button class="btn-out btn-lg submit-btn btn-block" name="login-submit" type="submit">Sign
                             In</button>
                         <p class="hint-text white-text">Need an account? <a class="m-hyperlink" href="signup.php">Sign
                                 Up</a></p>

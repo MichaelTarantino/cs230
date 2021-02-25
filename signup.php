@@ -35,7 +35,7 @@ require "includes/header.php"
                         <label for="inputPassword" class="sr-only">Confirm Password</label>
                         <input type="password" id="inputPassword" class="form-control" name="con-pwd"
                             placeholder="Confirm Password" required>
-                        <button class="btb btn-lg submit-btn btn-block" name="signup-submit" type="submit">Sign
+                        <button class="btn-out btn-lg submit-btn btn-block" name="signup-submit" type="submit">Sign
                             Up</button>
                         <p class="hint-text white-text">Already have an account? <a class="m-hyperlink"
                                 href="login.php">Sign In</a></p>

@@ -1,3 +1,7 @@
+<?php
+require 'includes/header.php';
+?>
+
 <main>
     <link rel="stylesheet" href="styles/about.css">
     <title>The spot for Hot Monster Reviews!</title>

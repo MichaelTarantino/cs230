@@ -1,0 +1,19 @@
+
+
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.submit-btn {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    transition: 0.25s all;
+}
+
+.submit-btn:hover {
+    background-color: rgb(43, 43, 43);
+    color: rgb(149, 214, 0);
+}
