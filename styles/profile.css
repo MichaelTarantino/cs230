@@ -27,8 +27,9 @@
 }
 
 .profile-picture-sze{
-    height: 120px;
-    width: 120x;
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
     border-radius: 60px;
 }
 

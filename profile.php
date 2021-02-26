@@ -83,7 +83,7 @@ require 'includes/dbhandler.php';
                                     </div>
                                     <div style="padding: 15px;">
                                         <div class="form-group">
-                                            <button type="submit" name="prof-sumbit" class="btn-out btn-lg submit-btn">Save Changes</button>
+                                            <button type="submit" name="prof-submit" class="btn-out btn-lg submit-btn">Save Changes</button>
                                         </div>
                                     </div>
                                 </div>
