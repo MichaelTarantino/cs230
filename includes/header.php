@@ -57,9 +57,9 @@ session_start();
                         Reviews
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Classic Monster</a>
+                        <a class="dropdown-item" href="gallery.php">Gallery</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Monster Ultra</a>
+                        <a class="dropdown-item" href="admin.php">Admin</a>
                     </div>
                 </li>
             </ul>
