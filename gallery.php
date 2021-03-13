@@ -4,6 +4,7 @@ require 'includes/header.php';
 
 <main class="full-bg">
     <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <h1 style="text-align:center;">Reviews</h1>
     <div class="container gallery-grad-bg">
         <div class="row">

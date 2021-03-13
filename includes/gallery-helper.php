@@ -35,7 +35,7 @@ if(isset($_POST['gallery-submit'])){
                     exit();
                 }else{
 
-                    mysqli_stmt_bind_param($stmt, "sss", $title, $description, $new_name);
+                    mysqli_stmt_bind_param($stmt, "sss", $title, $description, $destination);
                     mysqli_stmt_execute($stmt);
                     mysqli_stmt_store_result($stmt);
 
