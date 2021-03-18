@@ -5,8 +5,30 @@ require 'includes/review-helper.php';
 ?>
 
 <main>
+    <link rel="stylesheet" href="styles/review.css">
     <span id="testAvg"></span>
-    
+    <div class="container" align="center" style="max-width: 600px; margin-top: 40px;">
+        <div class="my-auto">
+            <form class="review-form" id="review-form" action="includes/review-helper.php" method="post">
+                <div class="container">
+                    <i class="fa fa-star fa-2x star-rev" data-index="1"></i>
+                    <i class="fa fa-star fa-2x star-rev" data-index="2"></i>
+                    <i class="fa fa-star fa-2x star-rev" data-index="3"></i>
+                    <i class="fa fa-star fa-2x star-rev" data-index="4"></i>
+                    <i class="fa fa-star fa-2x star-rev" data-index="5"></i>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="review-title" id="review-title" style="width: 40%; margin-bottom: 10px;" placeholder="Title">
+                    <textarea name="review" id="review-text" cols="50" rows="3" placeholder="Write a review here..."></textarea>
+                    <input type="hidden" name="rating" id="rating">
+                    <input type="hidden" name="item_id" value="<?php echo $_GET['id'];?>">
+                </div>
+                <div class="form-group">
+                <button type="submit" name="rev-submit" class="btn-out btn-lg submit-btn">Post Review</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <span id="review_list"></span>
 </main>
 
@@ -46,7 +68,7 @@ $(document).ready(function() {
 
     function setStars(max) {
         for (var i = 0; i < max; i++) {
-            $('.star-rev:eq(' + i + ')').css('color', 'goldenrod');
+            $('.star-rev:eq(' + i + ')').css('color', 'rgb(149, 214, 0)');
         }
         document.getElementById('rating').value = parseInt(localStorage.getItem('rating'));
         console.log(id);
