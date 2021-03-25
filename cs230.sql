@@ -31,7 +31,7 @@ CREATE TABLE `gallery` (
   `title` varchar(60) NOT NULL,
   `description` text NOT NULL,
   `picpath` varchar(80) NOT NULL,
-  `upload_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `upload_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `rating` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16le;
 
@@ -77,7 +77,7 @@ CREATE TABLE `reviews` (
   `uname` varchar(80) NOT NULL COMMENT 'creator',
   `title` varchar(60) NOT NULL,
   `reviewtext` text NOT NULL,
-  `revdate` datetime NOT NULL,
+  `revdate` timestamp NOT NULL,
   `ratingnum` int(11) NOT NULL,
   `status` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16le;
