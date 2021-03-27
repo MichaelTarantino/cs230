@@ -25,7 +25,7 @@ if(isset($_POST['gallery-submit'])){
         if(in_array($ext, $allowed)){
             if($file_size < 8*MB){
                 $new_name = uniqid('',true).".".$ext;
-                $destination = '../gallery/'.$new_name;
+                $destination = 'gallery/'.$new_name;
                 $sql = "INSERT INTO gallery (title, description, picpath) VALUES (?,?,?)";
 
                 $stmt = mysqli_stmt_init($conn);
