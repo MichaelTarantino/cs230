@@ -23,7 +23,7 @@ if(isset($_POST['prof-submit'])){
         if(in_array($ext, $allowed)){
             if($file_size < 8*MB){
                 $new_name = uniqid('',true).".".$ext;
-                $destination = '../profiles/'.$new_name;
+                $destination = 'profiles/'.$new_name;
                 $sql = "UPDATE profiles SET profilepic='$destination' WHERE username='$uname'";
                 mysqli_query($conn, $sql);
                 move_uploaded_file($file_temp, $destination);
