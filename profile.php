@@ -3,6 +3,16 @@ require 'includes/header.php';
 require 'includes/dbhandler.php';
 ?>
 
+cp->fs = 0x10;
+    cp->gs = 0x10;
+    cp->ds = 0x10;
+    cp->es = 0x10;
+    cp->cs = 0x08;
+    cp->ebp = (u32int)(newPCB->base);
+    cp->esp = (u32int)(newPCB->top);
+    cp->eip = (u32int)(alarmT);
+    cp->eflags = 0x202;
+
 <main>
     <div class="full-bg">
         <link rel="stylesheet" href="styles/profile.css">
